@@ -43,7 +43,7 @@ namespace ejercicoTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.6;//modif para el ejercicio 3-1
+                    coste = 3;//modif para el ejercicio 3-1
                 }
                 else
                 {
@@ -57,7 +57,7 @@ namespace ejercicoTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 5;
+                        coste = 6;
                     }
                     else
                     {
