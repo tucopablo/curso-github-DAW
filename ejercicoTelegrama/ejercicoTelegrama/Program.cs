@@ -16,7 +16,7 @@ namespace ejercicoTelegrama
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Telegrama());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace ejercicoTelegrama
 {
-    partial class Telegrama
+    partial class Form1
     {
         /// <summary>
         /// Variable nécessaire au concepteur.

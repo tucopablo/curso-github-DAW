@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ejercicoTelegrama
 {
-    public partial class Telegrama : Form
+    public partial class Form1 : Form
     {
-        public Telegrama()
+        public Form1()
         {
             InitializeComponent();
         }
