@@ -19,7 +19,7 @@ namespace ejercicoTelegrama
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            string textoTelegrama;
+            string textoTelegrama;//añado coñentarios
             char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste;
@@ -31,6 +31,10 @@ namespace ejercicoTelegrama
             {
                 tipoTelegrama = 'u';
             }
+            if (checkOrinario.Checked)
+            {
+                tipoTelegrama = 'o';
+            }
             //Obtengo el número de palabras que forma el telegrama
             //numPalabras = textoTelegrama.Length;
             numPalabras = palabras.Length;
@@ -39,11 +43,11 @@ namespace ejercicoTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 2.6;//modif para el ejercicio 3-1
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    coste = 0.55 * numPalabras;//modif para el ejercicio 3-1
                 }
             }
             else
@@ -68,6 +72,15 @@ namespace ejercicoTelegrama
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
+        private void chkUrgente_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkUrgente.Checked) checkOrinario.Checked= false;
+        }
+
+        private void checkOrinario_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkOrinario.Checked) chkUrgente.Checked = false;
+        }
     }
 
     

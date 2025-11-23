@@ -33,6 +33,7 @@
             this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.lblTexto = new System.Windows.Forms.Label();
+            this.checkOrinario = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -55,12 +56,13 @@
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(196, 282);
+            this.chkUrgente.Location = new System.Drawing.Point(284, 282);
             this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(84, 20);
+            this.chkUrgente.Size = new System.Drawing.Size(77, 20);
             this.chkUrgente.TabIndex = 9;
-            this.chkUrgente.Text = "Urgente?";
+            this.chkUrgente.Text = "Urgente";
             this.chkUrgente.UseVisualStyleBackColor = true;
+            this.chkUrgente.CheckedChanged += new System.EventHandler(this.chkUrgente_CheckedChanged);
             // 
             // txtTelegrama
             // 
@@ -80,18 +82,32 @@
             this.lblTexto.TabIndex = 7;
             this.lblTexto.Text = "Texto:";
             // 
+            // checkOrinario
+            // 
+            this.checkOrinario.AutoSize = true;
+            this.checkOrinario.Checked = true;
+            this.checkOrinario.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkOrinario.Location = new System.Drawing.Point(196, 282);
+            this.checkOrinario.Name = "checkOrinario";
+            this.checkOrinario.Size = new System.Drawing.Size(84, 20);
+            this.checkOrinario.TabIndex = 12;
+            this.checkOrinario.Text = "Ordinario";
+            this.checkOrinario.UseVisualStyleBackColor = true;
+            this.checkOrinario.CheckedChanged += new System.EventHandler(this.checkOrinario_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.checkOrinario);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.chkUrgente);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.lblTexto);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Telegram";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +120,7 @@
         private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.TextBox txtTelegrama;
         private System.Windows.Forms.Label lblTexto;
+        private System.Windows.Forms.CheckBox checkOrinario;
     }
 }
 
