@@ -57,7 +57,7 @@ namespace ejercicoTelegrama
                 {
                     if (numPalabras <= 10)
                     {
-                        coste = 6;
+                        coste = 6.5;
                     }
                     else
                     {
