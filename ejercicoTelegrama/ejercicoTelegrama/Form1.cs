@@ -31,7 +31,7 @@ namespace ejercicoTelegrama
             {
                 tipoTelegrama = 'u';
             }
-            if (checkOrinario.Checked)
+            if (checkOrdinario.Checked)
             {
                 tipoTelegrama = 'o';
             }
@@ -72,14 +72,16 @@ namespace ejercicoTelegrama
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
-        private void chkUrgente_CheckedChanged(object sender, EventArgs e)
+        private void checkOrdinario_CheckedChanged(object sender, EventArgs e)
         {
-            if (chkUrgente.Checked) checkOrinario.Checked= false;
+            if (checkOrdinario.Checked)
+                chkUrgente.Checked = false;
         }
 
-        private void checkOrinario_CheckedChanged(object sender, EventArgs e)
+        private void chkUrgente_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkOrinario.Checked) chkUrgente.Checked = false;
+            if(chkUrgente.Checked)
+                checkOrdinario.Checked = false;
         }
     }
 

@@ -8,3 +8,14 @@ C:\tucopablo\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\bin\Debug\ejer
 C:\tucopablo\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\bin\Debug\ejercicoTelegrama.pdb
 C:\tucopablo\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.exe
 C:\tucopablo\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.pdb
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\bin\Debug\ejercicoTelegrama.exe.config
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\bin\Debug\ejercicoTelegrama.exe
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\bin\Debug\ejercicoTelegrama.pdb
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.csproj.AssemblyReference.cache
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.exe.config
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.Form1.resources
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.Properties.Resources.resources
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.csproj.GenerateResource.cache
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.csproj.CoreCompileInputs.cache
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.exe
+C:\Users\tucop\Source\Repos\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.pdb
