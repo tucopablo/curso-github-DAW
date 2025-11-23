@@ -33,6 +33,8 @@
             this.chkUrgente = new System.Windows.Forms.CheckBox();
             this.txtTelegrama = new System.Windows.Forms.TextBox();
             this.lblTexto = new System.Windows.Forms.Label();
+            this.checkOrdinario = new System.Windows.Forms.CheckBox();
+            this.labelCoste = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnCalcular
@@ -55,12 +57,13 @@
             // chkUrgente
             // 
             this.chkUrgente.AutoSize = true;
-            this.chkUrgente.Location = new System.Drawing.Point(196, 282);
+            this.chkUrgente.Location = new System.Drawing.Point(285, 282);
             this.chkUrgente.Name = "chkUrgente";
-            this.chkUrgente.Size = new System.Drawing.Size(84, 20);
+            this.chkUrgente.Size = new System.Drawing.Size(77, 20);
             this.chkUrgente.TabIndex = 9;
-            this.chkUrgente.Text = "Urgente?";
+            this.chkUrgente.Text = "Urgente";
             this.chkUrgente.UseVisualStyleBackColor = true;
+            this.chkUrgente.CheckedChanged += new System.EventHandler(this.chkUrgente_CheckedChanged);
             // 
             // txtTelegrama
             // 
@@ -80,18 +83,43 @@
             this.lblTexto.TabIndex = 7;
             this.lblTexto.Text = "Texto:";
             // 
+            // checkOrdinario
+            // 
+            this.checkOrdinario.AutoSize = true;
+            this.checkOrdinario.Checked = true;
+            this.checkOrdinario.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkOrdinario.Location = new System.Drawing.Point(195, 282);
+            this.checkOrdinario.Name = "checkOrdinario";
+            this.checkOrdinario.Size = new System.Drawing.Size(84, 20);
+            this.checkOrdinario.TabIndex = 12;
+            this.checkOrdinario.Text = "Ordinario";
+            this.checkOrdinario.UseVisualStyleBackColor = true;
+            this.checkOrdinario.CheckedChanged += new System.EventHandler(this.checkOrdinario_CheckedChanged);
+            // 
+            // labelCoste
+            // 
+            this.labelCoste.AutoSize = true;
+            this.labelCoste.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelCoste.Location = new System.Drawing.Point(191, 324);
+            this.labelCoste.Name = "labelCoste";
+            this.labelCoste.Size = new System.Drawing.Size(64, 20);
+            this.labelCoste.TabIndex = 13;
+            this.labelCoste.Text = "Coste:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.labelCoste);
+            this.Controls.Add(this.checkOrdinario);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.chkUrgente);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.lblTexto);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Telegram";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +132,8 @@
         private System.Windows.Forms.CheckBox chkUrgente;
         private System.Windows.Forms.TextBox txtTelegrama;
         private System.Windows.Forms.Label lblTexto;
+        private System.Windows.Forms.CheckBox checkOrdinario;
+        private System.Windows.Forms.Label labelCoste;
     }
 }
 
