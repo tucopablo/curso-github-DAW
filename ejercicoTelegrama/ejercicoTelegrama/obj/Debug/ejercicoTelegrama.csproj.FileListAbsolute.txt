@@ -30,3 +30,4 @@ C:\Git\Clone2\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.cs
 C:\Git\Clone2\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.csproj.CoreCompileInputs.cache
 C:\Git\Clone2\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.exe
 C:\Git\Clone2\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.pdb
+C:\tucopablo\curso-github-DAW\ejercicoTelegrama\ejercicoTelegrama\obj\Debug\ejercicoTelegrama.exe.config

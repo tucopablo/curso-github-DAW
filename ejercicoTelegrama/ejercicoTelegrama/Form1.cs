@@ -72,16 +72,16 @@ namespace ejercicoTelegrama
             txtPrecio.Text = coste.ToString() + " euros";
         }
 
-        private void checkOrinario_CheckedChanged(object sender, EventArgs e)
+        private void checkOrdinario_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkOrinario.Checked)
+            if (checkOrdinario.Checked)
                 chkUrgente.Checked = false;
         }
 
         private void chkUrgente_CheckedChanged(object sender, EventArgs e)
         {
             if(chkUrgente.Checked)
-                checkOrinario.Checked = false;
+                checkOrdinario.Checked = false;
         }
     }
 
