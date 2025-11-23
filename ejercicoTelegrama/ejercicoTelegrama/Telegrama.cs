@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ejercicoTelegrama
 {
-    public partial class Form1 : Form
+    public partial class Telegrama : Form
     {
-        public Form1()
+        public Telegrama()
         {
             InitializeComponent();
         }
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            string textoTelegrama;
+            string textoTelegrama;//añado coñentarios
             char tipoTelegrama = 'o';
             int numPalabras = 0;
             double coste;
@@ -39,11 +39,11 @@ namespace ejercicoTelegrama
             {
                 if (numPalabras <= 10)
                 {
-                    coste = 2.5;
+                    coste = 2.6;//modif para el ejercicio 3-1
                 }
                 else
                 {
-                    coste = 0.5 * numPalabras;
+                    coste = 0.55 * numPalabras;//modif para el ejercicio 3-1
                 }
             }
             else

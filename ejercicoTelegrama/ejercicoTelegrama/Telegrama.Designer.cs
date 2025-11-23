@@ -1,6 +1,6 @@
 ﻿namespace ejercicoTelegrama
 {
-    partial class Form1
+    partial class Telegrama
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -80,7 +80,7 @@
             this.lblTexto.TabIndex = 7;
             this.lblTexto.Text = "Texto:";
             // 
-            // Form1
+            // Telegrama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -90,8 +90,8 @@
             this.Controls.Add(this.chkUrgente);
             this.Controls.Add(this.txtTelegrama);
             this.Controls.Add(this.lblTexto);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Telegrama";
+            this.Text = "Telegram";
             this.ResumeLayout(false);
             this.PerformLayout();
 
